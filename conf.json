@@ -1,0 +1,15 @@
+{
+	"port": 3000,
+	"mongoDB": {
+		"name": "domiciliario",
+		"host": "localhost"
+	},
+	"https":false,
+	"ssl": {
+		"key": "ssl/domiciliario.key",
+		"crt": "ssl/domiciliario.crt",
+		"cst": "ssl/domiciliario.csr",
+		"requestCert": false,
+		"rejectUnauthorized": false
+	}
+}
